@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: block;
 }
 #logo{
     height:40vh;
@@ -26,8 +27,7 @@
     justify-content: space-between;
     /* position: absolute; */
     z-index: 2;
-    border: 2px solid green;
-}
+ }
 #head{
     /* color: white; */
     font-style: cursive;
@@ -35,8 +35,6 @@
 }
 #cross{
     font-size:4rem;
-    border: 2px solid yellow;
-    /* position: absolute; */
     cursor: pointer;
     z-index: 2;
     animation: display 1s;
